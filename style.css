@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header .nav {
+   
+    display: flex;
+    position: relative;
+    
+    
+}
+ header .nav li{
+     list-style: none;
+}
+ header .nav li a {
+     display: inline-block;
+     color: #fcf9f9;
+     font-weight: 700;
+     text-decoration: none;
+     margin-left: 40px;
+     border-bottom: 5px solid transparent;
+     transition: border-bottom ;
+}
+.nav li a:hover,  
+.nav li a:active   {                     
+    border-bottom: 2px solid #62daf0 ;
+    
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+}
+.content .textBox h2 {
+    color: rgb(252, 248, 248);
+    font-size: 50px;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+    font-weight: 7;
+}
+
+.content .textBox h3 {
+    color: rgb(145, 216, 248);
+    font-size: 50px;
+    margin-bottom: 5px;
+    margin-top: -17px;
+    line-height: 1.4em;
+    font-weight: 7;
+}
+
+.content .textBox p {
+    color: rgb(255, 255, 255);
+    font-weight: 750;
+    line-height: 1.4;
+    font-style:normal;
+    
+}
+.content .textBox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: rgb(145, 216, 248);
+    color:rgb(12, 13, 14);
+    border-radius: 40px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    text-decoration: none;
+    
+}
+
+img {
+    
+    height: auto;
+    width:700px ;
+    position: relative;
+    align-items: center;
+    margin-left: 900px;
+    margin-top: -1000px;
+    margin-bottom: 50px;
+    margin-right: -80px;
+}
