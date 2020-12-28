@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{url_for('.static', filename='styles.css')}}">
 </head>
 <body>
     <section>
         <header>
             <img src="#" class="logo"></a>
             <ul class="nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Contact </a></li>
-                <li><a href="#">Help</a></li>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact </a></li>
+                <li><a href="{{ url_for('help') }}">Help</a></li>
             </ul>
-        </header>
-        <div class="content">
+</header>
+<div class="content">
             <div class="textBox">
-                <h2>I'm a Creative</h2>
+                <h2>I'm a Creative</h2> 
                 <h3>Designer</h3>
 
                 <p>Sometimes to understand a word's meaning you need more than a definition. At YourDictionary we try to give you all of the tools you need to really understand what the word means. Seeing the word in a sentence can provide more context and relevance.</p>
@@ -26,7 +26,7 @@
         </div>
     </section>
         <div class="img">
-            <li><a href="#"><img src="img2.png.png"></a></li>
+            <li><a href="#"><img src="static\img2.png.png"></a></li>
         </div>
     
 </body>
